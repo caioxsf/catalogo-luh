@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&display=swap');
+
+
+body {
+   background-image: url("/img/background.png");
+   font-family: "DM Sans", serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 80px;
+    margin-top: 40px;
+}
+
+/* a {
+    font-size: 40px;
+    margin-left: 170px;
+    margin-top: 40px;
+    text-decoration: none;
+    color: rgb(125, 174, 190);
+} */
+
+ .container-formulario {
+    margin: 60px;
+    margin-top: 50px;
+}
+
+.container-formulario form input {
+    padding: 15px;
+    font-size: 50px;
+    display: block;
+
+}
+
+.container-formulario form select {
+    padding: 15px;
+    font-size: 50px;
+    display: block;
+}
+
+.container-formulario option {
+    font-size: 13px;
+}
+
+.container-formulario form label {
+    font-size: 50px;
+} 
+
+.cadastrar-categoria {
+    text-align: end;
+    font-size: 35px;
+}
+
+.btn-primary {
+    width: 100%;
+    padding: 35px;
+    margin-top: 55px;
+    font-size: 35px;
+}

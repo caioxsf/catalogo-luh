@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&display=swap');
+
+
+body {
+    box-sizing: border-box;
+    padding: 0;
+    font-family: "DM Sans", serif;
+    background-color: rgb(252, 243, 248);
+    background-image: url("/img/background.png");                                    
+}
+
+.container-admin {
+   margin-top: 350px;
+}
+
+.itens-admin {
+    background-color: rgba(195, 209, 214, 0.151);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 25px;
+    border-bottom: 1px solid rgb(95, 97, 97);
+}
+
+.itens-admin i {
+    font-size: 50px;
+    
+}
+
+.itens-admin a {
+    color: black;
+    text-decoration: none;
+    font-size: 45px;
+    
+}
+
+
+
+.container-usuario {
+    padding: 90px;
+    text-align: center;
+}
+
+.container-usuario h1 {
+    font-size: 45px;
+}

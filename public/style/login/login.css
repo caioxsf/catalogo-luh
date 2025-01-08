@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&display=swap');
+
+body {
+    box-sizing: border-box;
+    padding: 0;
+    font-family: "DM Sans", serif;
+    background-color: rgb(252, 243, 248);
+    background-image: url("/img/background.png");                                    
+}
+
+.div-formulario {
+    position: relative;
+    top: 30%;
+    background-color: rgba(195, 209, 214, 0.151);
+    margin: 15px;
+    border-radius: 8px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.div-formulario legend {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 70px;
+}
+
+.div-formulario form {
+    padding: 40px;
+}
+
+.div-formulario button {
+    margin-top: 35px;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    padding: 25px;
+    font-size: 35px;
+
+    background-color: rgb(162, 197, 206);
+}
+
+.div-formulario input {
+    padding: 30px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 35px;
+}
+
+.div-formulario input:focus {
+    outline: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.div-formulario input:hover {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
+.div-formulario label {
+    font-size: 35px;
+}
+
+.luh {
+    text-align: center;
+    position: relative;
+    top: 250px;
+    font-family: "Dancing Script", serif;
+    font-size: 85px;
+}

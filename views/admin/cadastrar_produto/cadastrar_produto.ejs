@@ -1,0 +1,42 @@
+<link rel="stylesheet" href="/style/admin/cadastro_produto/cadastro_produto.css">
+
+
+    <h1>Cadastrar produto</h1>
+    <!-- <a href=""><i class="fa-solid fa-backward"></i></a> -->
+
+
+<div class="container-formulario">
+    <form>
+
+        <label for="nome" class="form-label">Nome do produto:</label>
+        <input type="text" class="form-control" id="nome" name="nome">
+       
+        <label for="sku" class="form-label">Código do produto / SKU:</label>
+        <input type="text" class="form-control" id="sku" name="sku">
+
+        <label for="preco" class="form-label">Preço:</label>
+        <input type="number" class="form-control" id="preco" name="preco">
+
+        <label for="descricao" class="form-label">Descrição:</label>
+        <input type="text" class="form-control" id="descricao" name="descricao">
+        
+        <label for="categoria" class="form-label">Categoria:</label>
+        <select name="categoria" id="categoria" class="form-select">
+            <option value="" disabled selected>Selecione uma opção</option>
+            <option value="">Brinco</option>
+            <option value="">Pulseira</option>
+            <option value="">Anel</option>
+            <option value="">Colar</option>
+        </select>
+        <a href="" class="cadastrar-categoria">*Cadastrar categoria</a><br><br>
+
+        <label for="cor" class="form-label">Selecione a cor:</label>
+        <input type="color" id="cor" name="cor" list="colors" class="form-control form-control-color" style="width: 100%;">
+        <datalist id="colors">
+            <option value="#daa520"></option>
+            <option value="#C0C0C0"></option>
+        </datalist>
+
+        <button type="button" id="btnCadastrar" class="btn btn-primary">Cadastrar produto</button>
+    </form>
+</div>
