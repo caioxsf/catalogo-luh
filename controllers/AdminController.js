@@ -12,6 +12,10 @@ class AdminController {
         res.render('admin/produtos_cadastrados/produtos_cadastrados')
     }
 
+    cadastrarCategoriaView (req,res) {
+        res.render('admin/cadastrar_produto/cadastrar_categoria')
+    }
+
 }
 
 module.exports = AdminController;

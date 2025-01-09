@@ -7,9 +7,17 @@ body {
 }
 
 h1 {
-    text-align: center;
     font-size: 80px;
-    margin-top: 40px;
+}
+
+.cadastro-produto-h1 {
+    margin: 50px;
+}
+
+.cadastro-produto-h1 i {
+    font-size: 45px;
+    margin-top: 30px;
+    margin-left: 50px;
 }
 
 /* a {

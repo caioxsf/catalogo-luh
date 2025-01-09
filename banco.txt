@@ -1,0 +1,5 @@
+create table usuarios (
+	user_id int primary key not null auto_increment,
+    user_usuario varchar(50),
+    user_senha varchar(50)
+)

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&display=swap');
+
+body {
+   background-image: url("/img/background.png");
+   font-family: "DM Sans", serif;
+}
+
+.cadastro-produto-h1 {
+    
+    margin: 50px;
+}
+
+.cadastro-produto-h1 h1 {
+    font-size: 80px;
+}
+
+.cadastro-produto-h1 i {
+    font-size: 45px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+form input {
+    padding: 15px;
+    font-size: 50px;
+    display: block;
+
+}
+
+form label {
+    font-size: 50px;
+} 
